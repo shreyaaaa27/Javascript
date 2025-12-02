@@ -28,12 +28,38 @@ const myFunction = function(){
     console.log("hello world");
 }
 
-console.log(typeof bigNumber);
-//dataType of null is Object, as it is unique.
-console.log(typeof outsideTemp);
-console.log(typeof myFunction);
-console.log(typeof heros);
-console.log(typeof id);
+// console.log(typeof bigNumber);
+// //dataType of null is Object, as it is unique.
+// console.log(typeof outsideTemp);
+// console.log(typeof myFunction);
+// console.log(typeof heros);
+// console.log(typeof id);
+
+
+//Stack and Heap Memory//
+
+
+//Stack(Primitive),Heap(Non-primitive)
+
+let myYouTubename ="shreyasinghdotcom"
+
+let anothernmae =myYouTubename
+anothername="chair"
+
+// console.log(anothername);
+// console.log(myYouTubename);
+
+let userOne={
+    email: "user@google.com",
+    upi : "user@ybl"
+}
+
+let userTwo = userOne
+userTwo.email = "shreya@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
 
 
 
